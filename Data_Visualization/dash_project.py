@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
 
-spacex_df = pd.read_csv('./Data_Science_Capstone/Data_Visualization/spacex.csv')
+spacex_df = pd.read_csv(r'./spacex.csv')
 
 app = dash.Dash(__name__)
 
